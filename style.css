@@ -1,7 +1,43 @@
-#todo{
-    height: 100px;
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.head{
+    background-image: linear-gradient(#ece0e0, #9198e5);
+    width: 100%;
+    padding: 5%;
+    text-align: center;
+}
+.input_{
+    margin-top: 10px;
+    text-align: center;
+}
+input[type="text"]{
+    width: 300px;
+    height: 20px;
+}
+.todo{
     border: 1px solid black;
+    width: 60%;
+    height: 200px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    /* text-align: center; */
+    margin:auto;
+    margin-top: 10px;
+}
+
+ul{
+list-style: none;
 }
 #output_{
-    height: 100vh;
+    border: 1px solid black;
+    margin: auto;
+    width: 60%;
+    height: 200px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    /* text-align: center; */
 }
+    
+   

@@ -2,7 +2,8 @@ $(document).ready(function () {
     $("#submit_").click(function () {
         // Adding task 
         var task_ = $(".input_todo").val();
-        $("#ul1").append(`<li><input type='checkbox' class="checkd"><input type='text' class='val_'><span class='task_done'>${task_}</span><button type='button' class='edit'>Edit</button><button type='button' class='delete'>Delete</button><button type='button' class='save'>Save</button></li>`);
+        $("#ul1").append(`<li><input type='checkbox' class="checkd"> <span class='task_done'>${task_}</span> <input type='text' class='val_'> <button type='button' class='edit'>Edit</button><button type='button' class='delete'>Delete</button><button type='button' class='save'>Save</button></li>`);
+        $(".input_todo").val("");
         // delete Function
         $(".delete").click(function () {
             $(this).parent("li").toggleClass("stroked").fadeOut("slow");
