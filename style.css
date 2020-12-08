@@ -32,6 +32,7 @@ input[type="text"] {
 }
 li{
     border-bottom: 1px solid black;
+    height: 25px;
     margin: 5px;
 }
 #output_ {
@@ -43,3 +44,18 @@ li{
     overflow-y: scroll;
     /* text-align: center; */
 }
+.edit{
+    float: right;
+}
+.delete{
+    float: right;
+}
+
+.save{
+    float: right;
+}
+.checkd{
+    float: right;
+    
+}
+
