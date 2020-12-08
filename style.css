@@ -58,4 +58,10 @@ li{
     float: right;
     
 }
+.input_todo{
+    border-bottom: 1px solid black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
 
