@@ -30,7 +30,10 @@ input[type="text"] {
     margin: auto;
     margin-top: 10px;
 }
-
+li{
+    border-bottom: 1px solid black;
+    margin: 5px;
+}
 #output_ {
     border: 1px solid black;
     margin: auto;
