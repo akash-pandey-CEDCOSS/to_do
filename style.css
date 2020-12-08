@@ -1,36 +1,37 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
 }
-.head{
+
+.head {
     background-image: linear-gradient(#ece0e0, #9198e5);
     width: 100%;
     padding: 5%;
     text-align: center;
 }
-.input_{
+
+.input_ {
     margin-top: 10px;
     text-align: center;
 }
-input[type="text"]{
+
+input[type="text"] {
     width: 300px;
     height: 20px;
 }
-.todo{
+
+.todo {
     border: 1px solid black;
     width: 60%;
     height: 200px;
     overflow-x: hidden;
     overflow-y: scroll;
     /* text-align: center; */
-    margin:auto;
+    margin: auto;
     margin-top: 10px;
 }
 
-ul{
-list-style: none;
-}
-#output_{
+#output_ {
     border: 1px solid black;
     margin: auto;
     width: 60%;
@@ -39,5 +40,3 @@ list-style: none;
     overflow-y: scroll;
     /* text-align: center; */
 }
-    
-   
