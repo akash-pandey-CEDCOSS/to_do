@@ -3,7 +3,7 @@ $(document).ready(function () {
         // Adding task 
         var task_ = $(".input_todo").val();
         if (task_ != "") {
-            $("#ul1").append(`<li> <span class='task_done'>${task_}</span> <input type='text' class='val_'> <button type='button' class='edit'>Edit</button><button type='button' class='delete'>Delete</button><button type='button' class='save'>Save</button> <input type='checkbox' class="checkd"></li>`);
+            $("#ul1").append(`<li> <span class='task_done'>${task_}</span> <input type='text' class='val_'> <button type='button' class='edit'>Edit</button> <button type='button' class='delete'>Delete</button> <button type='button' class='save'>Save</button> <input type='checkbox' class="checkd"> </li>`);
             $(".input_todo").val("");
             // delete Function
             $(".val_").hide();
@@ -53,3 +53,4 @@ $(document).ready(function () {
 
 
 });
+

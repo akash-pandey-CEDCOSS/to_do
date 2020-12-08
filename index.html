@@ -4,6 +4,8 @@
 <head>
     <title>Todo List</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap" rel="stylesheet">
     <script type="text/javascript" src="main.js"></script>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -13,10 +15,10 @@
         <h1>To-Do List</h1>
     </div>
 
-    <div class="input_"><input type="text" class="input_todo" placeholder="Enter the task..."><button type="submit" id="submit_">Add</button></div>
+    <div class="input_"><input type="text" class="input_todo" placeholder="Enter the task...">  <button type="submit" id="submit_">Add</button></div>
     <!-- todo -->
     <div class="todo">
-        <p><u>To-Do</u></p>
+        <p><span class="heading"><u>To-Do</u></span></p>
         <ol id="ul1">
 
         </ol>
@@ -26,7 +28,7 @@
     <!-- output completed -->
 
     <div id="output_">
-        <p><u>Completed</u></p>
+        <p><span class="heading"><u>Completed</u></span></p>
         <ol id="ul2">
         </ol>
     </div>

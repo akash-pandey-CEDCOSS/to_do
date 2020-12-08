@@ -2,12 +2,15 @@
     box-sizing: border-box;
     margin: 0;
 }
-
+body{
+    font-family: 'Oxygen', sans-serif;
+}
 .head {
     background-image: linear-gradient(#ece0e0, #9198e5);
     width: 100%;
     padding: 5%;
     text-align: center;
+    color: white;
 }
 
 .input_ {
@@ -21,7 +24,7 @@ input[type="text"] {
 }
 
 .todo {
-    border: 1px solid black;
+    border-bottom: 1px solid black;
     width: 60%;
     height: 200px;
     overflow-x: hidden;
@@ -36,7 +39,7 @@ li{
     margin: 5px;
 }
 #output_ {
-    border: 1px solid black;
+    border-bottom: 1px solid black;
     margin: auto;
     width: 60%;
     height: 200px;
@@ -63,5 +66,10 @@ li{
     border-top: none;
     border-left: none;
     border-right: none;
+}
+.heading {
+    padding: 5px;
+    background-color: rgb(153,146,216);
+    color: white;
 }
 
