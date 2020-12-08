@@ -1,7 +1,8 @@
 $(document).ready(function () {
-    $("#submit_").click(function () {
+    $("#submit_").click(function () {     
         // Adding task 
         var task_ = $(".input_todo").val();
+        if(task_!=""){
         $("#ul1").append(`<li><input type='checkbox' class="checkd"> <span class='task_done'>${task_}</span> <input type='text' class='val_'> <button type='button' class='edit'>Edit</button><button type='button' class='delete'>Delete</button><button type='button' class='save'>Save</button></li>`);
         $(".input_todo").val("");
         // delete Function
@@ -35,6 +36,11 @@ $(document).ready(function () {
             var save_ = $(this).siblings(".val_").val().trim();
             
             $(this).siblings(".task_done").html(save_);
-        })
+        });
+    }
+
     });
+
+
+
 });
