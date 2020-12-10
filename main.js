@@ -30,8 +30,8 @@ $(document).ready(function () {
             // edit function
             var toEdit = "";
             $(".edit").click(function () {
-                $(".val_").show();
-                $(".save").show();
+                $(this).parent('li').find(".val_").show();
+                $(this).parent('li').find(".save").show();
                 var c = $(this).siblings(".task_done").html();
 
                 $(this).siblings(".val_").val(c);
